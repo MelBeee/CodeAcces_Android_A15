@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Laboratoire3</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_code_acces_valide">CodeAccesValide</string>
+    <string name="invalide">Connexion non établie.</string>
+    <string name="valide">Connexion établie, \n bienvenue </string>
+    <string name="Valider">Connexion</string>
+    <string name="Effacer">Effacer</string>
+    <string name="H_Username">Nom d\'Usager</string>
+    <string name="H_MDP">Code d\'Acces</string>
+    <string name="T_Invalide_MDP">Un code acces contient 4 chiffres, réessayer</string>
+    <string name="T_Invalide_Username">Il faut entrer un nom d\'utilisateur</string>
+</resources>

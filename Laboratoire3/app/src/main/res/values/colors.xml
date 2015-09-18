@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="valide">#00FF00</color>
+    <color name="font_valide">#000000</color>
+    <color name="invalide">#FF0000</color>
+    <color name="font_invalide">#FFFFFF</color>
+</resources>
