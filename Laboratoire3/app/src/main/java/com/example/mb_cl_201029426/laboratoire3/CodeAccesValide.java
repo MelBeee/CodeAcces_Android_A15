@@ -18,20 +18,22 @@ public class CodeAccesValide extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_code_acces_valide);
-
+        //Prend la première activité
         Intent intent = getIntent();
-
+        //Récupaire les paramètres Username et le code d'entré
         String Username = intent.getStringExtra("Username");
         String S_CodeEntree = intent.getStringExtra("Password");
         LinearLayout unLayout = (LinearLayout)findViewById((R.id.Layout));
         TextView UsernameTV = (TextView)findViewById(R.id.TV_Username);
 
+        //Si le code d'accès est valide
         if(S_CodeValide.equals(S_CodeEntree) )
         {
             UsernameTV.setText(getResources().getText(R.string.valide) + " " + Username);
             unLayout.setBackgroundColor(Color.rgb(0, 255, 0));
             UsernameTV.setTextColor(Color.rgb(0,0,0));
         }
+        //Si le Code d'accès est invalide
         else
         {
             UsernameTV.setText(getResources().getText(R.string.invalide));
